@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://blazey08.github.io",
   "predeploy":"npm run build",
-  "deploy":"gh-pages -d build"
+  "deploy":"gh-pages -d build",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
