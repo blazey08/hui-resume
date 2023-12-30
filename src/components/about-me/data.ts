@@ -1,0 +1,48 @@
+
+export const timelineElements = [
+    {
+        id: 0,
+        title: "Temp1",
+        location: "Temp1",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        date: "Feb 2018 - Match 2020",
+        buttonText: "Press!!",
+        url: "nil",
+    },
+    {
+        id: 1,
+        title: "Temp2",
+        location: "Temp2",
+        description: "Nothing yet",
+        date: "Feb 2018 - Match 2020",
+        buttonText: "Press!!",
+        url: "nil",
+    },
+    {
+        id: 2,
+        title: "Tempe3",
+        location: "Temp3",
+        description: "Nothing yet",
+        date: "Feb 2018 - Match 2020",
+        buttonText: "Press!!",
+        url: "nil",
+    },
+    {
+        id: 4,
+        title: "Temp4",
+        location: "Temp4",
+        description: "Nothing yet",
+        date: "Feb 2018 - Match 2020",
+        buttonText: "Press!!",
+        url: "nil",
+    },
+    {
+        id: 5,
+        title: "Temp5",
+        location: "Temp5",
+        description: "Nothing yet",
+        date: "Feb 2018 - Match 2020",
+        buttonText: "Press!!",
+        url: "nil",
+    },
+]
