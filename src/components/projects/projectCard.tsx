@@ -13,7 +13,7 @@ interface ProjectCardProps {
 
 export function ProjectCard({ card }: ProjectCardProps) {
 
-    const imagePath = `/images/${card.image}`
+    const imagePath = `/hui-resume/images/${card.image}`
     return (
         <Card>
             <CardHeader>

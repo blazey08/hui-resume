@@ -8,19 +8,19 @@ import { ThemeProvider } from "./components/theme-provider";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/hui-resume",
     element: <RootLayout />,
     children: [
       {
-        path: "/",
+        path: "/hui-resume",
         element: <Home />
       },
       {
-        path: "/about",
+        path: "/hui-resume/about",
         element: <AboutMe />
       },
       {
-        path: "/projects",
+        path: "/hui-resume/projects",
         element: <Projects />
       },
     ]
