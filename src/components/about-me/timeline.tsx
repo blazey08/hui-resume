@@ -27,7 +27,7 @@ export function Timeline() {
               contentArrowStyle={{
                 borderRightColor: "#22333b",
               }}
-              icon={<Briefcase />}
+              icon={<Briefcase className="pb-px-10" />}
             >
               <h3 className="heading">{element.title}</h3>
               <h5 className="subHeading">{element.location}</h5>

@@ -22,23 +22,22 @@ interface ProjectCardProps {
 export function ProjectCard({ card }: ProjectCardProps) {
   const imagePath = `/hui-resume/images/${card.image}`;
   return (
-    <Card>
+    <Card className="">
       <CardHeader>
         <CardTitle> {card.name} </CardTitle>
         <CardDescription>{card.description}</CardDescription>
       </CardHeader>
-      <CardContent className="space-y-4">
+      <CardContent className="flex-col max-w-96">
         <img
           src={imagePath}
           alt={card.name}
           style={{ width: "100%", maxHeight: "200px", objectFit: "cover" }}
         />
-        <Heading4>Project Description</Heading4>
-        {card.longtext}
-        <a href={card.link}>
-          <Github />
-        </a>
-        <Separator className="my-4" />
+        <div className="flex-col py-5">
+          <Heading4>Project Description</Heading4>
+          <p>{card.longtext}</p>
+        </div>
+        <Separator className="my-2" />
         <div>
           <Heading5>Tags:</Heading5>
           {card.languages.map((lang, index) => (
@@ -52,7 +51,11 @@ export function ProjectCard({ card }: ProjectCardProps) {
         </div>
       </CardContent>
       <CardFooter>
-        <Subtext1>Credits: Me</Subtext1>
+        <Subtext1>
+          <a href={card.link} className="self-item-end">
+            <Github />
+          </a>
+        </Subtext1>
       </CardFooter>
     </Card>
   );

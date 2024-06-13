@@ -7,7 +7,7 @@ export function ProgrammingLanguageBadge(lang: string) {
     case "React":
       return "bg-yellow-500";
     case "Rust":
-      return "bg-brown-500";
+      return "bg-yellow-700";
     case "Html":
       return "bg-green-500";
     case "CSS":
