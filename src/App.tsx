@@ -1,10 +1,9 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import { Home } from "./pages/Home"
-import { Projects } from "./pages/Projects"
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Projects } from "./pages/Projects";
 import { AboutMe } from "./pages/AboutMe";
 import { RootLayout } from "./pages/Root";
 import { ThemeProvider } from "./components/theme-provider";
-
 
 const router = createBrowserRouter([
   {
@@ -13,19 +12,19 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/hui-resume",
-        element: <Home />
+        element: <Home />,
       },
       {
         path: "/hui-resume/about",
-        element: <AboutMe />
+        element: <AboutMe />,
       },
       {
         path: "/hui-resume/projects",
-        element: <Projects />
+        element: <Projects />,
       },
-    ]
-  }
-])
+    ],
+  },
+]);
 
 function App() {
   return (
@@ -35,4 +34,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;

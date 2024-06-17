@@ -6,6 +6,7 @@
   "homepage": "https://blazey08.github.io/hui-resume/",
   "scripts": {
     "build": "tsc && vite build",
+    "dev": "vite",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
