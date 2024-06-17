@@ -20,6 +20,7 @@ export function Timeline() {
                 alignContent: "center",
                 textAlign: "center",
               }}
+              iconClassName="py-8"
               contentStyle={{
                 backgroundColor: "#22333b",
                 padding: "20px",
@@ -27,7 +28,7 @@ export function Timeline() {
               contentArrowStyle={{
                 borderRightColor: "#22333b",
               }}
-              icon={<Briefcase className="pb-px-10" />}
+              icon={<Briefcase />}
             >
               <h3 className="heading">{element.title}</h3>
               <h5 className="subHeading">{element.location}</h5>

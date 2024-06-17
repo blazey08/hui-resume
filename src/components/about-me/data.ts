@@ -3,7 +3,9 @@ export const timelineElements = [
     id: 0,
     title: "Bachelors of Engineering - Computer Systems Design (CSD)",
     location: "Singapore University of Technology and Design (SUTD)",
-    description: "",
+    description:
+      "In university, I was part of the Housing Committee as well as the school dance team. On top of that, I got the chance to organize various events including but not limited to SUTD's in house hackathon\
+      What The Hack, PARK(ing) Day and volunteering events as part of the Roteract Club.",
     date: "March 2019 - Aug 2022",
   },
   {
