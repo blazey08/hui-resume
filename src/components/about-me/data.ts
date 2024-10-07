@@ -37,9 +37,12 @@ export const timelineElements = [
   },
   {
     id: 5,
-    title: "Software Engineer (SRE)",
+    title: "Full Time Software Engineer (SRE)",
     location: "Bytedance",
-    description: "Full Time",
+    description:
+      "At Bytedance, I was a part of two different components - Virtual Machines and Logging System. Even though we mainly used in house systems, there are open sourced equivalents. For Virtual Machines, we mainly used programs that are part of Openstack like nova and cinder and\
+    libvirt to handle the VMs. Linux systems was also a integral part of my daily life since that's the main OS booted on the servers we use. With regards to the logging system, I mainly dealt with dockers and debugging code. On top of maintaining these two systems, I have also headed a few\
+    projects which gave me exposure into project and people management.",
     date: "Oct 2022 - Now",
   },
 ];
