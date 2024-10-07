@@ -27,7 +27,7 @@ export const timelineElements = [
     date: "Summer 2021",
   },
   {
-    id: 4,
+    id: 3,
     title: "Software Engineer Intern (SRE)",
     location: "Bytedance",
     description:
@@ -36,7 +36,7 @@ export const timelineElements = [
     date: "Jun - Aug 2022",
   },
   {
-    id: 5,
+    id: 4,
     title: "Full Time Software Engineer (SRE)",
     location: "Bytedance",
     description:
